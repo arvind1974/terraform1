@@ -8,12 +8,12 @@ pipeline {
                         parameters([
                             choice(
                                 choices: ['ONE', 'TWO'], 
-                                name: 'PARAMETER_01'
+                                name: 'COFORGE'
                             ),
                             booleanParam(
                                 defaultValue: true, 
                                 description: '', 
-                                name: 'BOOLEAN'
+                                name: 'IBM'
                             ),
                             text(
                                 defaultValue: '''
